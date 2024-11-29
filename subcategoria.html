@@ -1,0 +1,62 @@
+<!--
+Nombre: Nelson Ravelo
+Fecha:29/11/2024
+Modulo: LMSGI
+UD02
+Tare Evaluativa 2: Sitio Web
+Descripción del programa: desarrollar el sitio web diseñado en la primera tarea de evaluación
+y deberá tener 5 páginas web.
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="LocoGames Tienda Online" content="Tienda de juegos de mesa"> 
+    <title>LocoGames - Eurogames</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
+  <body>
+    
+    <!--header que contiene dentro de ella nav-->
+    <header>
+      <h1>LocoGames - Tu mejor sitio para adquirir juegos de mesa</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="categorias.html">Categorías de Juegos</a></li>
+          <li><a href="noticia.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+      <!--Se crea section que agrupa el main y el aside con la finalidad de aplicarle una clase de flexbox para que esten en filas -->
+      <section class="seccion">
+        <main>
+          <article class="margenArticulo">
+            <h3 class="centrarTexto"><a href="juego.html">Dune Imperium</a></h3>
+            <img src="Imagenes/dune.jpg" class="imagenFloat"> 
+            <p>"Dune Imperium" es un juego de tablero, de 2 a 4 participantes, en el que tus decisiones serán las que determinen el futuro del imperio.</p>
+            
+          </article>
+          <article class="margenArticulo">
+            <h3 class="centrarTexto">Nucleum</h3>
+            <img src="Imagenes/nucleum.jpg" class="imagenFloat" ></img>
+            <p>"Nucleum" es un juego de tablero, de 1 a 4 participantes, en el que, gracias al reactor nuclear Nucleum, podrás conectar tus ciudades y energizar tus edificios.</p>
+          </article>
+        </main>      
+        <aside class="margenReducido">
+            <h3 class="centrarTexto">¿Qué es un Eurogame?</h3>
+            <p>Se trata de una categoría de juegos de mesa que se caracteriza por la mayor importancia de la mecánica de juego respecto a su tema o ambientación, por la participación de todos los jugadores hasta el final 
+                de la partida y por la poca incidencia del azar en el desarrollo de la misma. Por todo ello suelen ser juegos con un alto componente estratégico que se resuelven por mediante la obtención de puntos de 
+                victoria en un número determinado de turnos de juego.
+            </p>
+        </aside>
+      </section>
+      
+    <!--Autoria-->
+    <footer>
+      Todos los derechos reservados. LocoGames S.A.
+    </footer>
+  </body>
+</html>
